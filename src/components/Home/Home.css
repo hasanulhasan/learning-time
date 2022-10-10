@@ -1,0 +1,12 @@
+.topics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 576px) {
+  .topics {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
