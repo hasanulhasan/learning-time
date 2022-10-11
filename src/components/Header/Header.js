@@ -1,16 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Header.css'
-
 const Header = () => {
   return (
     <div>
       <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex justify-between h-16 mx-auto">
-          <a to="/home" aria-label="Back to homepage" className="flex items-center p-2 text-4xl font-extrabold"> Learning Time </a>
+          <a to="/" aria-label="Back to homepage" className="flex items-center p-2 text-4xl font-extrabold"> Learning Time </a>
           <ul className="items-stretch hidden space-x-3 lg:flex">
             <li className="flex">
-              <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/home' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Home</NavLink>
+              <NavLink to='/' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Home</NavLink>
             </li>
             <li className="flex">
               <NavLink to='/quiz' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Quiz</NavLink>
