@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 
-const QuizTopic = ({ quiz, handleQuiz }) => {
+const QuizTopic = ({ quiz }) => {
   const { id, name, logo, total } = quiz;
   const navigate = useNavigate();
   const handleNavigate = (id) => {
