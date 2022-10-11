@@ -6,19 +6,19 @@ const Header = () => {
     <div>
       <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex justify-between h-16 mx-auto">
-          <NavLink rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2 text-4xl font-extrabold"> Learning Time </NavLink>
+          <NavLink to="/" aria-label="Back to homepage" className="flex items-center p-2 text-4xl font-extrabold"> Learning Time </NavLink>
           <ul className="items-stretch hidden space-x-3 lg:flex">
             <li className="flex">
-              <NavLink rel="noopener noreferrer" to='/' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Home</NavLink>
+              <NavLink to='/' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Home</NavLink>
             </li>
             <li className="flex">
-              <NavLink rel="noopener noreferrer" to='/quiz' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Quiz</NavLink>
+              <NavLink to='/quiz' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Quiz</NavLink>
             </li>
             <li className="flex">
-              <NavLink rel="noopener noreferrer" to='/statistics' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Statistics</NavLink>
+              <NavLink to='/statistics' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Statistics</NavLink>
             </li>
             <li className="flex">
-              <NavLink rel="noopener noreferrer" to='/blog' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Blog</NavLink>
+              <NavLink to='/blog' className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent text-3xl">Blog</NavLink>
             </li>
           </ul>
           <div className="items-center flex-shrink-0 hidden lg:flex">
