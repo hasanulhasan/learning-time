@@ -1,5 +1,6 @@
 import React from 'react';
 import Options from '../Options/Options';
+import swal from 'sweetalert';
 
 const Questions = ({ q }) => {
   const { question, id, correctAnswer, options, total } = q;
@@ -7,12 +8,11 @@ const Questions = ({ q }) => {
   // console.log(correctAnswer);
   const ansHandle = (option) => {
     if (option === correctAnswer) {
-      console.log('you are correct')
+      swal("Great!!", "Your answer is correct!", "success");
     }
     else {
-      console.log('you are wrong');
+      swal("Oops!!", "Your are Wrong!", "error");
     }
-    // console.log(option)
   }
   return (
     <div>
