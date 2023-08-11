@@ -1,33 +1,15 @@
-# Features in my Site
+# Learning Time
+Quiz website
 
-##Live_Link: https://monumental-stroopwafel-c88b88.netlify.app/
+## Project feature
+1- User can participate in Quizzes </br>
+2- Live Score update on quiz page</br>
+3- User can see result from statistics page</br>
 
-### `NavBar`
-In my site i used a navbar with some menu
+### `Technology used:`
 
-### `Header`
-a header kept with image and some photos
+Tailwind CSS, Mamba UI, React JS, React Router, JavaScript</br>
 
-### `404 error`
-an error component used for 404 error
 
-### `Quiz Section`
-here 4 quiz section added in home page
-
-### `Toast`
-in quiz menu i used tost for correct and wrong ans
-
-### `Icon`
-an eye icon i kept for watching correct ans
-
-### `Chart`
-a barchar is kept in statistics section to watch quiz number of quiz item
-
-### `Tailwind`
-for arranging component i used tailwind as css framework 
-
-### `Blog`
-In blog section i kept some question as FAQ style
-
-### `Responsive`
-this site is a responsive site
+### `Live link` 
+https://monumental-stroopwafel-c88b88.netlify.app/
